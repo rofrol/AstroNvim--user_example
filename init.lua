@@ -81,5 +81,10 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+
+    -- https://www.reddit.com/r/neovim/comments/z7aqw0/comment/j0pe3ln/
+    require("notify").setup({
+      background_colour = "#1a1b26",
+    })
   end,
 }
