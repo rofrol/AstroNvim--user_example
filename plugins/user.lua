@@ -45,4 +45,5 @@ return {
     require('vscode').load()
     end,
   },
+  "ziglang/zig.vim",
 }
